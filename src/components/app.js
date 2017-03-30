@@ -13,9 +13,7 @@ export default class App extends Component{
 
 		return (
 			<div id="app">
-				<div id="postComment">
 					<PostComment />
-				</div>
 					<UserOne />
 					<UserTwo />
 			</div>
