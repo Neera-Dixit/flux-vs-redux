@@ -1,0 +1,51 @@
+body {
+	margin: 0;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+#app {
+	width: 100%;
+	height: 100%;
+}
+
+#postComment {
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	border-right: 1px solid black;
+}
+
+#userOne {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 50%;
+    border-bottom: 1px solid black;
+    overflow-y: auto; 
+}
+
+#userTwo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    height: 50%;
+    overflow-y: auto; 
+}
+
+#postComment > form{
+	width: 30%;
+    margin: 15% auto;
+}
+
+form > div {
+    padding-bottom: 10px;
+}
+
+ #userOne label,#userTwo  label {
+    display: block;
+    width: 20%;
+    margin: 0 auto;
+}

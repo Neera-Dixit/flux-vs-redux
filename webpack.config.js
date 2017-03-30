@@ -23,5 +23,8 @@ var clientMainPath = path.resolve(__dirname, 'src','components','index.js');
             exclude: /node_modules/,
             loaders: ['babel-loader']
          }]
+        },
+        devServer: {
+            //contentBase: "./src/views"
         }
     };
